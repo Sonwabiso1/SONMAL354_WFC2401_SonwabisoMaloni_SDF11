@@ -1,48 +1,32 @@
 # SDF Presentation
 Loom Link: [Insert Here]
-Presentation Slides: [Insert Your Link Here]
+Presentation Slides: https://docs.google.com/presentation/d/1y-IwSZ9SY15bdfHyr7ZrZ7HFZJbQJmUiAHMcII3hA1E/edit?usp=sharing
 
 Presentation Slides Template: https://docs.google.com/presentation/d/1MTiIdjlDYyPIMa23tHK6QwpHWtk6G5zPw_n45aAr3D0/edit#slide=id.g1f203f4d459_0_15
 
 
-# Presentation Talking Points
+# Cache Bank Website Project Overview
 
-# Slide 1: Introduction
-**Talking Points:**
-- Briefly introduce yourself, the project and its objectives.
-- Overview of the tech stack used (HTML5, CSS3 with Tailwind, JavaScript).
-- Discuss the initial project setup, emphasizing the organization of the repository for easy collaboration.
+## Description
+The Cache Bank website serves as the digital storefront for Cache Bank, a leading financial institution catering to a wide range of clients. The website is designed to provide a user-friendly and informative experience for visitors, showcasing Cache Bank's products, services, and commitment to excellence in banking.
 
-# Slide 2: Component 1 - Project Setup and Responsive Navigation
-**Talking Points:**
-- Explain the use of a mobile-first design approach, detailing the CSS media queries for responsive navigation.
-- Discuss the implementation of an intuitive navigation bar using JavaScript and Tailwind CSS for dynamic resizing and toggling on various devices.
-- Highlight the use of semantic HTML5 elements for better structure and accessibility.
+## Features
+User-Centric Design: The website is designed with the user experience in mind, ensuring easy navigation and intuitive access to information.
+Product and Service Showcase: Visitors can explore Cache Bank's diverse range of banking products and services.
+Community Engagement: Cache Bank's commitment to community involvement is highlighted through discord.
+Responsive Design: The website is optimized for seamless viewing across various devices, ensuring a consistent experience for users on desktops, laptops, tablets, and smartphones.
 
-# Slide 3: Component 2 - Hero and Endorsements
-**Talking Points:**
-- Explain the choice and incorporation of endorsements from credible sources to build trust.
-- Discuss the call to action in the hero section, guiding users to sign up or learn more.
-- Detail the creation of the hero section using Tailwind CSS for styling and grid layout for alignment.
+## Configuration
+Information about any configuration options or settings that users might need to adjust.
 
-# Slide 4: Component 3 - Features
-**Talking Points:**
-- Discuss the use of CSS Flexbox and Grid to design a responsive features section that adapts to screen size.
-- Explain the application of ARIA (Accessible Rich Internet Applications) roles for accessibility in feature listings.
+## Contributing
+Guidelines for others who want to contribute to the project.
 
-# Slide 5: Component 4 - Stats and Getting Started Section
-**Talking Points:**
-- Highlight the 'Getting Started' section design to guide users on engaging with Cache Bank's services.
-- Discuss the CSS layout techniques used to make the 'Getting Started' section and statistics visually appealing and informative.
-- Highlight the use of JavaScript for animating statistics counters upon scrolling into view.
+## Credits
+This project uses Tailwind utility classes when formatting the HTML divs
 
-# Slide 6: Component 5 - Contact and Footer
-**Talking Points:**
-- Discuss the accessibility and design of the footer to complement the overall website design.
-- Detail the implementation of the contact form using HTML5 form elements and JavaScript for form validation.
-- Discuss the use of Flexbox or CSS Grid in designing a responsive footer that includes links, privacy policy, terms of use, and social media icons.
+## License
+Codespace Academy
 
-# Slide 7: Conclusion
-**Talking Points:**
-- Reflect on the project's objectives and how they were achieved through each component.
-- Reflect on the technical skills and knowledge gained through working on the project.
+## Acknowledgments
+Codespace Academy
