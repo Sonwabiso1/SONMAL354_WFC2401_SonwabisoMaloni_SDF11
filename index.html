@@ -20,14 +20,14 @@
                 src="assets/component-1/navigation/cache-bank-logo.png"/>
             </div>
             <div class="hidden md:flex items-center justify-between gap-12 text-black">
-                <a href="javascript:void(0)" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">Product</a>
-                <a href="javascript:void(0)" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">Features</a>
-                <a href="javascript:void(0)" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">Get Started</a>
-                <a href="javascript:void(0)" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">Contact</a>
+                <a href="#Product" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">Product</a>
+                <a href="#Features" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">Features</a>
+                <a href="#GettingStarted" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">Get Started</a>
+                <a href="#Contact" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">Contact</a>
             </div>
             <div class="hidden md:flex items-center gap-8">
                 <button class="text-sm font-normal text-dark-grey-800 hover:text-dark-grey-900">Log In</button>
-                <button class="px-4 py-2 text-sm font-bold text-blue bg-green-500 rounded-xl hover:bg-pink-500" >Sign Up</button>
+                <button class="px-4 py-2 text-sm font-bold text-blue bg-green-500 rounded-xl hover:bg-pink-500" ><a href="https://d2x3xhvgiqkx42.cloudfront.net/12345678-1234-1234-1234-1234567890ab/9432a2ad-f01d-4a3d-ae53-370c37e15e62/2019/04/03/d43fd77a-7eff-44a0-bddf-f3314c60e521/7103b8d3-eadc-40c3-bc6c-283fece6746b.png">Sign Up</a></button>
             </div>
             <button class="md:hidden p-4" id="mobile-menu-toggle">
                 <svg
@@ -59,13 +59,13 @@
                 </svg>
             </button>
             <div id="mobile-menu" class="absolute flex md:hidden flex-col items-start shadow-main justify-center w-full gap-3 overflow-hidden bg-white max-h-screen top-full p-4"><!--the buttons will be hidden when viewport is at least medium-->
-                <a href="Product" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">Product</a>
-                <a href="javascript:void(0)" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">Features</a>
-                <a href="javascript:void(0)" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">Get Started</a>
-                <a href="javascript:void(0)" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">Contact</a>
+                <a href="#Product" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">Product</a>
+                <a href="#Features" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">Features</a>
+                <a href="#GettingStarted" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">Get Started</a>
+                <a href="#Contact" class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">Contact</a>
 
                 <button class="flex items-center px-4 py-2 text-sm font-normal text-black">Log In</button>
-                <button class="flex items-center px-4 py-2 text-sm font-bold text-blue bg-green-500 rounded-xl hover:bg-pink-500" >Sign Up</button>
+                <button class="flex items-center px-4 py-2 text-sm font-bold text-blue bg-green-500 rounded-xl hover:bg-pink-500" ><a href="https://d2x3xhvgiqkx42.cloudfront.net/12345678-1234-1234-1234-1234567890ab/9432a2ad-f01d-4a3d-ae53-370c37e15e62/2019/04/03/d43fd77a-7eff-44a0-bddf-f3314c60e521/7103b8d3-eadc-40c3-bc6c-283fece6746b.png">Sign Up</a></button>
             </div>
         </div>
 
@@ -79,11 +79,11 @@
 
     <section class="grid w-full grid-cols-1 my-auto mt-12 mb-8 md:grid-cols-2 xl:gap-14 md:gap-5">
         <div class="flex flex-col justify-center col-span-1 text-center lg:text-start ml-5">
-            <h1 class="mb-8 text-4xl font-extrabold leading-tight lg:text-6xl text-dark-grey-900">
+            <h1 class="mb-8 text-4xl font-extrabold leading-tight lg:text-6xl text-dark-grey-900" id="Product">
                 The Clever Place to Keep Your Cache
             </h1>
             <p class="mb-6 text-base font-normal leading-7 lg:3/4 text-grey-900">
-                Cache Bank is designed exclusively for software developers. We understand your financial needsare as unique as the code you write.
+                Cache Bank is designed exclusively for software developers. We understand your financial needs are as unique as the code you write.
                 Our services offer cutting-edge solutions that help you take of your cash.
             </p>
             <div class="flex flex-col items-center gap-4 lg:flex-row">
@@ -102,7 +102,7 @@
     <!--Endorsments-->
     <section class="w-full">
         <div class="container flex flex-col items-center gap-8 mx-auto my-40 ">
-            <p class="text-center text-dark-grey-600 font-semibold mb-10 text-2xl">
+            <p class="text-center text-dark-grey-600 font-semibold mb-10 text-2xl" id="Features">
                 Endorsed by global companies like
             </p>
             <div class="flex flex-wrap items-center justify-center w-full gap-6 lg:gap-0 lg:flex-nowrap lg:justify-between">
@@ -152,7 +152,7 @@
         <div class="flex flex-col items-center justify-center mt-12">
             <h1 class="mb-4 text-3xl lg:text-4xl font-extrabold text-dark-grey-900 text-center">Elevate your banking with cache</h1>
             <p class="text-lg text-center lg:w-7/12 text-grey-700">
-                We merge cutting-edge banking with a deep understand of software developers' needs.
+                We merge cutting-edge banking with a deep understand of software developers needs.
         Experience tailored financial solutions, advance security, and tech focussed support design just for you.
             </p>
 
@@ -169,7 +169,7 @@
                 <div class="flex flex-col gap-2 text-center px-6">
                     <h4 class="text-2xl font-extrabold text-dark-grey-900">Developer-Focused Plans</h4>
                     <p class="font-medium text-grey-700">Tailored accounts offering benefits like high yield savings and exclusive investment options, designed specifically 
-                        for software developers' financial needs and career growth</p>
+                        for software developers financial needs and career growth</p>
                 </div>
             </div>
             
@@ -286,7 +286,7 @@
                 </div>
                 <div class="flex flex-col gap-16">
                     <div class="flex flex-col gap-2 text-center md:text-start">
-                        <h2 class="text-3xl font-extrabold md:text-4xl lg:text-5xl text-dark-grey-900">How Cache Works?</h2>
+                        <h2 class="text-3xl font-extrabold md:text-4xl lg:text-5xl text-dark-grey-900" id="GettingStarted">How Cache Works?</h2>
                         <p class="text-base font-medium leading-7 text-grey-600"><span style="color: rgb(55,65, 81); font-family:Söhne, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
                             Cache Bank simplifies sign-up with a user-friendly website, streamlined
                             account options, and an efficient verification process, making banking accessible
@@ -332,7 +332,7 @@
     <!--Contact-->
     <div class="w-full">
         <!--Container-->
-        <div class="container flex flex-col gap-16 items-center mx-auto my-32">
+        <div class="container flex flex-col gap-16 items-center mx-auto my-32" id="Contact">
             <!--Card list-->
             <div class="grid w-full grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
                 <!--card-->
@@ -342,7 +342,7 @@
                             <path d="M31.9904 13.965L22.4166 4.40166C21.6057 3.60976 20.5294 3.16817 19.4104 3.16817C18.2914 3.16817 17.2151 3.60976 16.4041 4.40166L6.8304 13.9017C6.40502 14.283 6.0629 14.7524 5.82645 15.279C5.58999 15.8056 5.46454 16.3776 5.45831 16.9575V30.5425C5.47456 31.6946 5.93476 32.793 6.73808 33.5973C7.5414 34.4016 8.62236 34.846 9.74415 34.8333H28.9225C30.0443 34.846 31.1252 34.4016 31.9285 33.5973C32.7319 32.793 33.1921 31.6946 33.2083 30.5425V16.9575C33.2071 16.4009 33.0989 15.85 32.8899 15.3365C32.6809 14.823 32.3752 14.3569 31.9904 13.965ZM18.47 6.68166C18.7058 6.46025 19.0138 6.33747 19.3333 6.33747C19.6528 6.33747 19.9608 6.46025 20.1966 6.68166L28.5833 15.0417L20.1504 23.4017C19.9146 23.6231 19.6066 23.7459 19.2871 23.7459C18.9675 23.7459 18.6596 23.6231 18.4237 23.4017L10.0833 15.0417L18.47 6.68166ZM30.125 30.5425C30.1052 30.8533 29.9688 31.144 29.7445 31.3537C29.5203 31.5633 29.2256 31.6755 28.9225 31.6667H9.74415C9.44102 31.6755 9.14636 31.5633 8.9221 31.3537C8.69785 31.144 8.56147 30.8533 8.54165 30.5425V17.9708L14.7854 24.1458L12.2262 26.6792C11.9391 26.9758 11.7779 27.3771 11.7779 27.7954C11.7779 28.2137 11.9391 28.615 12.2262 28.9117C12.3695 29.066 12.5417 29.1891 12.7324 29.2734C12.9232 29.3578 13.1286 29.4017 13.3362 29.4025C13.7332 29.4009 14.1142 29.2421 14.4 28.9592L17.1287 26.2675C17.8065 26.6928 18.5853 26.9179 19.3796 26.9179C20.1738 26.9179 20.9527 26.6928 21.6304 26.2675L24.3591 28.9592C24.6449 29.2421 25.026 29.4009 25.4229 29.4025C25.6306 29.4017 25.8359 29.3578 26.0267 29.2734C26.2174 29.1891 26.3896 29.066 26.5329 28.9117C26.82 28.615 26.9812 28.2137 26.9812 27.7954C26.9812 27.3771 26.82 26.9758 26.5329 26.6792L23.9583 24.1458L30.125 17.9708V30.5425Z" fill="#22c55e"/>
                           </svg>  
                     </span>
-                    <p class="text-2xl font-extrabold text-dark-grey-900">Email</p>
+                    <p class="text-2xl font-extrabold text-dark-grey-900" >Email</p>
                     <p class="text-base leading-7 text-dark-grey-600">Contact us at</p>
                     <p class="text-lg font-bold text-green-500" href="mailto: hello@loople.com">hi@cachebank.com</p>
                 </div>
